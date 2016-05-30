@@ -2,7 +2,7 @@
 
 Shadowsocks elementaryOS/Ubuntu（也许可以） 客户端（指示器）。
 
-## 载图
+## 截图
 
 ![](https://raw.githubusercontent.com/Simpleyyt/shadowsocks-eos/master/screenshot/screenshot.png)
 
