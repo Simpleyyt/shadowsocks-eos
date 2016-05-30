@@ -1,6 +1,6 @@
 {
   "name": "Shadowsocks eOS 客户端",
   "tagline": "Shadowsocks elementaryOS/Ubuntu（也许可以） 客户端（指示器）。",
-  "body": "# Shadowsocks eOS 客户端\r\n\r\nShadowsocks elementaryOS/Ubuntu（也许可以） 客户端（指示器）。\r\n\r\n## 载图\r\n\r\n![](https://raw.githubusercontent.com/Simpleyyt/shadowsocks-eos/master/screenshot/screenshot.png)\r\n\r\n## 功能\r\n\r\n * Shadowsocks 指示器，可以开关 Shadowsocks\r\n * 全局代理与自动代理模式\r\n * 编辑服务器\r\n * 获取GWFList更新\r\n\r\n## 安装\r\n\r\n首先必须先安装`shadowsocks-libev`与`gfwlist2pac`。\r\n\r\n`shadowsocks-libev`的安装参考：<https://github.com/shadowsocks/shadowsocks-libev>。\r\n\r\n`gfwlist2pac`可以通过`pip`安装。\r\n\r\n然后，下载 Shadowsocks 的 deb 包进行安装：<https://github.com/simpleyyt/shadowsocks-eos/releases>。\r\n\r\n## Bugs\r\n\r\n代码很暴力，凑合能用就行。",
+  "body": "# Shadowsocks eOS 客户端\r\n\r\nShadowsocks elementaryOS/Ubuntu（也许可以） 客户端（指示器）。\r\n\r\n## 截图\r\n\r\n![](https://raw.githubusercontent.com/Simpleyyt/shadowsocks-eos/master/screenshot/screenshot.png)\r\n\r\n## 功能\r\n\r\n * Shadowsocks 指示器，可以开关 Shadowsocks\r\n * 全局代理与自动代理模式\r\n * 编辑服务器\r\n * 获取GWFList更新\r\n\r\n## 安装\r\n\r\n首先必须先安装`shadowsocks-libev`与`gfwlist2pac`。\r\n\r\n`shadowsocks-libev`的安装参考：<https://github.com/shadowsocks/shadowsocks-libev>。\r\n\r\n`gfwlist2pac`可以通过`pip`安装。\r\n\r\n然后，下载 Shadowsocks 的 deb 包进行安装：<https://github.com/simpleyyt/shadowsocks-eos/releases>。\r\n\r\n## Bugs\r\n\r\n代码很暴力，凑合能用就行。\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
