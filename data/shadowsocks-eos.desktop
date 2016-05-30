@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Shadowsocks
+GenericName=Shadowsokcs
+Exec=shadowsocks-eos
+Icon=shadowsocks-eos
+Terminal=false
+Type=Application
+Categories=Network

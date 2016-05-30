@@ -1,0 +1,6 @@
+*.pyc
+/dist
+/build
+/deb_dist
+/install.txt
+/*.egg-info
