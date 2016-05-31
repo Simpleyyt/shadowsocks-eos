@@ -1,13 +1,6 @@
 {
     "index": 0, 
     "configs": [
-        {
-            "remarks": "Bandwagon", 
-            "password": "MTg2ZGI5ZT", 
-            "port": 443, 
-            "server": "45.62.100.200", 
-            "method": "aes-256-cfb"
-        }
     ], 
     "global": false, 
     "enabled": true, 

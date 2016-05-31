@@ -1,18 +1,22 @@
 # coding: utf-8
 import os
 from subprocess import Popen, call
+from config import Config
 
 def stop():
-    # hahaha~~~
-    for i in range(0, 20):
-        os.system('killall ss-local 2> /dev/null')
+  call(['sslocal',
+        '-s', '127.0.0.1',
+        '-d', 'stop',
+        '--pid-file', Config.path + '.pid'])
 
 def start(host, port, password, method, local_port):
     stop()
-    Popen (['ss-local',
-           '-s', host,
-           '-p', str(port),
-           '-l', str(local_port),
-           '-k', password,
-           '-m', method,
-           '-v'])
+    call(['sslocal',
+          '-s', host,
+          '-p', str(port),
+          '-l', str(local_port),
+          '-k', password,
+          '-m', method,
+          '-d', 'start',
+          '--log-file', Config.path + '.log',
+          '--pid-file', Config.path + '.pid'])

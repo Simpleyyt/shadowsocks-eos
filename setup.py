@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='shadowsocks-eos',
-    version = '1.0.0',
+    version = '1.0.1',
     description = 'Shadowsocks client for elementaryOS or Ubuntu',
     author = 'Yitao Yao',
     author_email = 'simpleyyt@gmail.com',
